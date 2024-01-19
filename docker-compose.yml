@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+  postgres:
+    image: postgres:16.0
+    container_name: PostgresTest
+    expose:
+      - 5432
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_DB=testDb
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=1234
+  pgadmin:
+    image: dpage/pgadmin4:8.2
+    container_name: PgAdmin
+    expose:
+      - 5050
+    ports:
+      - 5050:5050
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=aaa@gmail.com
+      - PGADMIN_DEFAULT_PASSWORD=1234
+
