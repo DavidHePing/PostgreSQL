@@ -19,7 +19,8 @@ services:
       - 5050
     ports:
       - 5050:80
+    volumes:
+      - E:\\SelfSpace\\Devops\\PostgreSQL\\pgadmin-data:/var/lib/pgadmin
     environment:
       - PGADMIN_DEFAULT_EMAIL=aaa@gmail.com
       - PGADMIN_DEFAULT_PASSWORD=1234
-
