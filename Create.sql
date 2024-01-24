@@ -1,15 +1,15 @@
-CREATE TABLE IF NOT EXISTS public."Car"
+CREATE TABLE IF NOT EXISTS public."cars"
 (
-    "Id" serial NOT NULL,
-    "Name" text NOT NULL,
-    "Price" numeric(10, 2) DEFAULT 0,
-    PRIMARY KEY ("Id")
+    "id" serial NOT NULL,
+    "name" text NOT NULL,
+    "price" numeric(10, 2) DEFAULT 0,
+    PRIMARY KEY ("id")
 );
 
-INSERT INTO public."Car"(
-	"Name", "Price")
+INSERT INTO public."cars"(
+	"name", "price")
 	VALUES ('Tesla', 1000);
 
-INSERT INTO public."Car"(
-	"Name", "Price")
+INSERT INTO public."cars"(
+	"name", "price")
 	VALUES ('Toyota', 200);
