@@ -1,0 +1,10 @@
+INSERT INTO public.task(user_id, subject, description)VALUES (1, '1', 'task 1');
+INSERT INTO public.task(user_id, subject, description) VALUES (2, '2', 'task 2');
+INSERT INTO public.task(user_id, subject, description) VALUES (3, '3', 'task 3');
+INSERT INTO public.task(user_id, subject, description) VALUES (4, '4', 'task 4');
+INSERT INTO public.task(user_id, subject, description) VALUES (5, '5', 'task 5');
+INSERT INTO public.task(user_id, subject, description) VALUES (6, '6', 'task 6');
+INSERT INTO public.task(user_id, subject, description) VALUES (7, '7', 'task 7');
+INSERT INTO public.task(user_id, subject, description) VALUES (8, '8', 'task 8');
+INSERT INTO public.task(user_id, subject, description) VALUES (9, '9', 'task 9');
+INSERT INTO public.task(user_id, subject, description) VALUES (10, '10', 'task 10');
