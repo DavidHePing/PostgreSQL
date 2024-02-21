@@ -15,8 +15,8 @@ INSERT INTO public."cars"(
 
 INSERT INTO public."cars"(
 	"name", "price", "type")
-	VALUES ('Toyota', 200), 'Japan';
+	VALUES ('Toyota', 200, 'Japan');
 
 INSERT INTO public."cars"(
 	"name", "price", "type")
-	VALUES ('"Honda"', 150), 'Japan';
+	VALUES ('"Honda"', 150, 'Japan');
