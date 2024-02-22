@@ -20,3 +20,20 @@ INSERT INTO public."cars"(
 INSERT INTO public."cars"(
 	"name", "price", "type")
 	VALUES ('Honda', 150, 'Japan');
+
+CREATE TABLE IF NOT EXISTS public."test_cars"
+(
+    "id" serial NOT NULL,
+    "name" text NOT NULL,
+    "price" numeric(10, 2) DEFAULT 0,
+    "is_deleted" boolean,
+    PRIMARY KEY ("id")
+);
+
+INSERT INTO public."test_cars"(
+	"name", "price")
+	VALUES ('Tesla', 1000);
+
+INSERT INTO public."test_cars"(
+	"name", "price")
+	VALUES ('Toyota', 200);
