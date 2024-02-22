@@ -37,3 +37,7 @@ INSERT INTO public."test_cars"(
 INSERT INTO public."test_cars"(
 	"name", "price")
 	VALUES ('Toyota', 200);
+
+INSERT INTO public."test_cars"(
+	"name", "price")
+	VALUES ('Honda', 150);
